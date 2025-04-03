@@ -11,5 +11,25 @@ using namespace std;
 //     return 0;
 // }
 
+/**************** Cin **********************/
+// int main () {
+//     int age ;
+//     cout << " Enter your age: " ;
+//     cin >> age;
+//     cout << " You are " << age << " years old. " <<endl;
+//     return 0;
+// }
+
+/**************** Taking multiple Inputs **********************/
+// int main () {
+//     int num1 , num2;
+//     cout << " Enter two number : " << endl;
+//     cin >> num1 >> num2 ;
+//     cout << "Sum : " << num1 + num2 << endl;
+//     return 0;
+// }
+
+/**************** getline() **********************/
+
 
 
