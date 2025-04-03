@@ -1,5 +1,5 @@
 #include <iostream> 
-#include <iomanip>      
+#include <iomanip>      //required for setw and set precision 
 using namespace std;
 
 /**************** Cout **********************/
@@ -48,7 +48,15 @@ using namespace std;
 // }
 
 /**************** cerr **********************/
+// int main () {
+//     cerr << "Error : Invalid input " ;
+// }
 
+/**************** clog **********************/
+int main () {
+    clog << " This is log message . \n " ;
+    return 0;
+}
 
 
 
