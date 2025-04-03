@@ -1,5 +1,5 @@
 #include <iostream> 
-#include <iomanip>  
+#include <iomanip>      
 using namespace std;
 
 /**************** Cout **********************/
@@ -30,6 +30,25 @@ using namespace std;
 // }
 
 /**************** getline() **********************/
+// int main () {
+//     string name;
+// 	cout << "Enter your full name: " ;
+// 	getline ( cin , name ); // Reads the full line 
+// 	cout << "Hello, " << name << endl;
+// 	return 0;
+// }
+
+/**************** setw and setprecision **********************/
+// int main () {
+//     double price = 124.456;
+
+//     cout << "Price (default): " << price << endl;
+//     cout << "Price ( 2 decimals ): " << fixed << setprecision(2) << price << endl;
+//     cout << "Price with 10 width: " << setw(10) << price << endl;
+// }
+
+/**************** cerr **********************/
+
 
 
 
